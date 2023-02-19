@@ -3,7 +3,7 @@ import os
 import tkinter as tk
 
 # SETTING UP API KEY AND ENVIRONMENT
-API_KEY = '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'
+API_KEY = 'YOUR_KEY'
 os.environ['OpenAI_Key'] = API_KEY
 openai.api_key = os.environ['OpenAI_Key']
 
